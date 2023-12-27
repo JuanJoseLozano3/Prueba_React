@@ -1,0 +1,73 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.persona{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.32rem;
+}
+
+.administracionSST{
+  display: flex;
+  height: 150vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.sedes,.ausentes,.enfermos,.vacunados,.operario,.accidentados, .persona{
+  display: flex;
+  height: 90vh;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left:1rem;
+}
+
+.notification{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  margin-left:1rem;
+}
+
+.menu, .options, .salida, .accidentalidad, .administrar, .ausentismo, .trabajadores, .vacunacion{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  margin-left:1rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 960px){
+  .administracionSST{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .accidentalidad, .administrar, .ausentismo, .trabajadores, .vacunacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:0rem;
+    font-size: 1.3rem;
+  }
+
+  .notification{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    margin-left:1rem;
+  }
+}
